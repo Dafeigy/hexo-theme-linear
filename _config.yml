@@ -1,21 +1,25 @@
 # favicon path to your logo
-favicon:
+favicon: https://pic.imgdb.cn/item/66b57eafd9c307b7e909094a.webp
 
 # canvas
 canvasbg:
-  enabled: false
-  color:
-  opacity:
-  count:
+  enabled: true
+  color: f3f3f3
+  opacity: 0.8
+  count: 10
 
 # personal links
 ## links icon base folder
 linkiconbase: /images/links/
 ## array of links
 links:
-  - name:
-    link:
-    icon:
+  - name: Owner
+    link: https://cybercolyce.cn
+    icon: about.png
+  - name: Github
+    link: https://github.com/dafeigy
+    icon: github.png
+  
 
 # pagination
 pagination:
@@ -23,21 +27,22 @@ pagination:
   next_text: '>'
 
 # whether to display `CC BY-SA 4.0` declaration
-declaration: true
+declaration: false
 
 # comment
 waline:
   enabled: true
-  serverURL:
-  placeholder:
-  avatar:
+  serverURL: https://www.cybercolyce.space/
+  placeholder: 请文明评论呀^_^
+  avatar: mm
+  # meta: [nick, mail, link]
   emoji:
-    bilibili: true
+    # bilibili: true
     qq: true
-    tieba: true
-    twitter: true
-    alus: true
-    weibo: true
+    # tieba: true
+    # twitter: true
+    # alus: true
+    # weibo: true
 
 # footer
 ## for users in China
@@ -48,3 +53,4 @@ counter:
 
 # google site verification
 verimeta:
+  enabled: false
